@@ -1,0 +1,11 @@
+{
+  "name": "reconcile",
+  "description": "Cross-output consistency for AI-generated documents. Maintains canonical facts, tracks documents, detects contradictions, and surgically corrects files.",
+  "version": "1.0.0",
+  "author": {
+    "name": "dcurtisdev"
+  },
+  "homepage": "https://github.com/dcurtisdev/reconcile",
+  "repository": "https://github.com/dcurtisdev/reconcile",
+  "license": "AGPL-3.0"
+}

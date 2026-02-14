@@ -1,0 +1,41 @@
+{
+  "name": "saas",
+  "description": "SaaS / B2B software business",
+  "categories": {
+    "market": {
+      "label": "Market & Industry",
+      "icon": "📊",
+      "fields": ["tam", "sam", "som", "cagr", "geography", "segments", "trends"]
+    },
+    "competitive": {
+      "label": "Competitive Landscape",
+      "icon": "🏢",
+      "fields": ["leader", "competitors", "market_share", "positioning", "moats", "recent_funding"]
+    },
+    "product": {
+      "label": "Product & Platform",
+      "icon": "🔧",
+      "fields": ["name", "category", "platform", "integrations", "differentiators", "tech_stack"]
+    },
+    "metrics": {
+      "label": "Key Metrics",
+      "icon": "📈",
+      "fields": ["arr", "mrr", "churn_rate", "ltv", "cac", "ltv_cac_ratio", "nrr", "dau_mau"]
+    },
+    "pricing": {
+      "label": "Pricing & Packaging",
+      "icon": "💰",
+      "fields": ["model", "tiers", "arp_user", "arp_account", "discounts", "free_tier"]
+    },
+    "customers": {
+      "label": "Customers & GTM",
+      "icon": "🎯",
+      "fields": ["icp", "buyer_persona", "deal_size", "sales_cycle", "channels", "logos"]
+    },
+    "terminology": {
+      "label": "Terminology",
+      "icon": "📝",
+      "fields": ["product_name", "feature_names", "plan_names", "internal_terms", "abbreviations"]
+    }
+  }
+}

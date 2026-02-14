@@ -1,0 +1,41 @@
+{
+  "name": "general",
+  "description": "General-purpose fact schema for any domain",
+  "categories": {
+    "market": {
+      "label": "Market & Industry",
+      "icon": "📊",
+      "fields": ["tam", "sam", "som", "cagr", "growth_rate", "geography", "segments"]
+    },
+    "competitive": {
+      "label": "Competitive Landscape",
+      "icon": "🏢",
+      "fields": ["leader", "competitors", "market_share", "pricing", "gaps"]
+    },
+    "product": {
+      "label": "Product & Solution",
+      "icon": "🔧",
+      "fields": ["name", "category", "abbreviation", "features", "pricing"]
+    },
+    "financial": {
+      "label": "Financial Data",
+      "icon": "💰",
+      "fields": ["revenue", "funding", "valuation", "unit_economics", "projections"]
+    },
+    "terminology": {
+      "label": "Terminology",
+      "icon": "📝",
+      "fields": ["product_name", "buyer_persona", "technical_terms", "brand_terms"]
+    },
+    "entities": {
+      "label": "Key Entities",
+      "icon": "🏛️",
+      "fields": ["companies", "people", "partners", "locations"]
+    },
+    "sources": {
+      "label": "Key Sources",
+      "icon": "📚",
+      "fields": ["studies", "reports", "data_sources", "references"]
+    }
+  }
+}

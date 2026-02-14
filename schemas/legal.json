@@ -1,0 +1,41 @@
+{
+  "name": "legal",
+  "description": "Legal document generation and analysis",
+  "categories": {
+    "jurisdiction": {
+      "label": "Jurisdiction & Venue",
+      "icon": "⚖️",
+      "fields": ["governing_law", "venue", "court", "arbitration_rules", "choice_of_forum"]
+    },
+    "parties": {
+      "label": "Parties & Entities",
+      "icon": "🏛️",
+      "fields": ["party_names", "roles", "representatives", "affiliates", "signatories"]
+    },
+    "terms": {
+      "label": "Key Terms & Dates",
+      "icon": "📋",
+      "fields": ["effective_date", "termination_date", "renewal_terms", "notice_periods", "milestones"]
+    },
+    "financial": {
+      "label": "Financial Terms",
+      "icon": "💰",
+      "fields": ["consideration", "payment_terms", "penalties", "indemnification_caps", "escrow"]
+    },
+    "compliance": {
+      "label": "Compliance & Regulatory",
+      "icon": "🔒",
+      "fields": ["regulations", "licenses", "certifications", "data_privacy", "reporting_obligations"]
+    },
+    "precedent": {
+      "label": "Case Law & Precedent",
+      "icon": "📚",
+      "fields": ["key_cases", "statutes", "standards", "interpretive_guidance", "risk_factors"]
+    },
+    "terminology": {
+      "label": "Terminology",
+      "icon": "📝",
+      "fields": ["defined_terms", "abbreviations", "standard_clauses", "boilerplate_refs"]
+    }
+  }
+}

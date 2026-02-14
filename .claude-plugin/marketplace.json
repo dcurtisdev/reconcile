@@ -1,0 +1,21 @@
+{
+  "name": "dcurtisdev-reconcile",
+  "owner": {
+    "name": "Doug Curtis"
+  },
+  "metadata": {
+    "description": "Cross-output consistency for AI-generated documents",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "reconcile",
+      "source": "./",
+      "description": "Cross-output consistency for AI-generated documents. Maintains canonical facts, tracks documents, detects contradictions, and surgically corrects files.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Doug Curtis"
+      }
+    }
+  ]
+}

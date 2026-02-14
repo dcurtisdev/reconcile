@@ -1,0 +1,41 @@
+{
+  "name": "medtech",
+  "description": "Medical device / health tech innovation",
+  "categories": {
+    "market": {
+      "label": "Market & Industry",
+      "icon": "📊",
+      "fields": ["tam", "cagr", "geography", "segments", "reimbursement_codes", "reimbursement_rates"]
+    },
+    "competitive": {
+      "label": "Competitive Landscape",
+      "icon": "🏢",
+      "fields": ["leader", "competitors", "market_share", "pricing", "gaps", "recent_ma"]
+    },
+    "regulatory": {
+      "label": "Regulatory Pathway",
+      "icon": "📋",
+      "fields": ["classification", "pathway", "product_code", "predicate", "standards", "guidance_docs"]
+    },
+    "clinical": {
+      "label": "Clinical Data",
+      "icon": "🔬",
+      "fields": ["condition", "icd10", "prevalence", "complication_rates", "endpoints", "key_studies"]
+    },
+    "terminology": {
+      "label": "Terminology",
+      "icon": "📝",
+      "fields": ["device_name", "abbreviation", "end_user", "setting", "condition_name"]
+    },
+    "ip": {
+      "label": "Intellectual Property",
+      "icon": "🔒",
+      "fields": ["key_patents", "assignees", "fto_findings", "trade_secrets"]
+    },
+    "financial": {
+      "label": "Financial / Business",
+      "icon": "💰",
+      "fields": ["target_price", "reimbursement_justification", "exit_comparables", "funding"]
+    }
+  }
+}

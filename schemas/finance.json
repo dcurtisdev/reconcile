@@ -1,0 +1,41 @@
+{
+  "name": "finance",
+  "description": "Financial analysis and investment research",
+  "categories": {
+    "company": {
+      "label": "Company Fundamentals",
+      "icon": "🏢",
+      "fields": ["name", "ticker", "sector", "industry", "market_cap", "headquarters", "employees"]
+    },
+    "financials": {
+      "label": "Financial Statements",
+      "icon": "📊",
+      "fields": ["revenue", "net_income", "ebitda", "gross_margin", "operating_margin", "eps", "fiscal_year"]
+    },
+    "valuation": {
+      "label": "Valuation & Ratios",
+      "icon": "📈",
+      "fields": ["pe_ratio", "ev_ebitda", "ps_ratio", "pb_ratio", "dcf_value", "target_price"]
+    },
+    "market": {
+      "label": "Market & Industry",
+      "icon": "🌐",
+      "fields": ["tam", "sam", "market_share", "cagr", "competitors", "industry_trends"]
+    },
+    "risk": {
+      "label": "Risk Factors",
+      "icon": "⚠️",
+      "fields": ["key_risks", "regulatory_risk", "concentration_risk", "currency_exposure", "debt_level"]
+    },
+    "sources": {
+      "label": "Data Sources",
+      "icon": "📚",
+      "fields": ["filings", "reports", "analyst_coverage", "data_providers", "as_of_date"]
+    },
+    "terminology": {
+      "label": "Terminology",
+      "icon": "📝",
+      "fields": ["company_name", "product_names", "segment_names", "metric_definitions", "abbreviations"]
+    }
+  }
+}
